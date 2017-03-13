@@ -23,9 +23,9 @@ public class EjemploIterator {
     public static void main(String[] args) {
         ArrayList<Persona> personas = new ArrayList<>();
         
-        personas.add(new Persona("1", "Juan"));
-        personas.add(new Persona("2", "Pedro"));
-        personas.add(new Persona("3", "Felipe"));
+        personas.add(new Persona("1", "David"));
+        personas.add(new Persona("2", "Felipe"));
+        personas.add(new Persona("3", "San Pedro"));
         
         JOptionPane.showMessageDialog(null, "IMPRESION CON ITERATOR\n\n"+imprimirListarIterator(personas));
         JOptionPane.showMessageDialog(null, "IMPRESION CON FOREACH\n\n"+imprimirListarIterator(personas));
